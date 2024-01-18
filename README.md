@@ -7,7 +7,7 @@
 ```python
 import pandas as pd
 ```
-**Pandas** ir ātrs, jaudīgs, elastīgs un viegli lietojams atvērtā koda datu analīzes un manipulācijas rīks, kas ir veidots uz Python programmēšanas valodas bāzes. Tas nodrošina datu struktūras un funkcijas, kas nepieciešamas strukturētu datu apstrādei, tostarp funkcionalitāti skaitlisko tabulu un laika rindu datu apstrādei.
+**Pandas** ir ātrs, jaudīgs, elastīgs un viegli lietojams atvērtā koda datu analīzes un manipulācijas rīks, kas ir veidots uz Python programmēšanas valodas bāzes. Tas nodrošina datu struktūras un funkcijas, kas nepieciešamas strukturētu datu apstrādei, tostarp funkcionalitāti skaitlisko tabulu un laika rindu datu apstrādei. Mana kodā tas tiek izmantots datu un datumu apstrādei **(pd.date_range)**.
 - Yfinance
 ```python
 import yfinance as yf
@@ -17,7 +17,7 @@ import yfinance as yf
 ```python
 import numpy as np
 ```
-**Numpy** ir Python bibliotēka, kas nodrošina atbalstu lieliem, daudzdimensiju masīviem un matricām, kā arī lielu augsta līmeņa matemātisko funkciju kolekciju darbam ar šiem masīviem. To izmanto zinātniskajiem aprēķiniem Python. Tā nodrošina rīkus darbam ar šiem masīviem un lielu skaitļošanas efektivitāti.
+**Numpy** ir Python bibliotēka, kas nodrošina atbalstu lieliem, daudzdimensiju masīviem un matricām, kā arī lielu augsta līmeņa matemātisko funkciju kolekciju darbam ar šiem masīviem. To izmanto zinātniskajiem aprēķiniem Python. Tā nodrošina rīkus darbam ar šiem masīviem un lielu skaitļošanas efektivitāti. Kodā tas tiek izmantots, lai izveidotu datumu masīvu prognozēšanai.
 - Datetime
 ```python
 from datetime import datetime, timedelta
@@ -28,11 +28,13 @@ from datetime import datetime, timedelta
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 ```
-**Sklearn (scikit-learn)** ir Python modulis mašīnmācīšanās procesam, kas veidots uz **SciPy** bāzes. Tas nodrošina vienkāršus un efektīvus rīkus prognozēšanas datu analīzei. Tas atbalsta dažādus mašīnmācīšanās algoritmus, piemēram, klasifikāciju, regresiju, klasterizāciju un citus. Tas ir izstrādāts tā, lai sadarbotos ar Python skaitlisko un zinātnisko bibliotēku **NumPy** un **SciPy**.
+**Sklearn (scikit-learn)** ir Python modulis mašīnmācīšanās procesam, kas veidots uz **SciPy** bāzes. Tas nodrošina vienkāršus un efektīvus rīkus prognozēšanas datu analīzei. Tas atbalsta dažādus mašīnmācīšanās algoritmus, piemēram, klasifikāciju, regresiju, klasterizāciju un citus. Tas ir izstrādāts tā, lai sadarbotos ar Python skaitlisko un zinātnisko bibliotēku **NumPy** un **SciPy**. Mana kodā **train_test_split** funkcija tiek izmantota, lai datu kopu sadalītu nejaušās apmācības un testa apakškopās un **LinearRegression** tiek izmantots, lai izveidotu lineārās regresijas modeli akciju cenu prognozēšanai.
 - Matplotlib
 ```python
 import matplotlib.pyplot as plt
 ```
-**Matplotlib** ir visaptveroša bibliotēka statisku, animētu un interaktīvu vizualizāciju izveidei Python. Tā rada publikāciju kvalitātes attēlus dažādos formātos un platformās, un to var izmantot skriptos, čaulās, tīmekļa lietojumprogrammās un grafiskās lietotāja saskarnes rīku komplektos. Tā ir attēlošanas bibliotēka Python programmēšanas valodai un tās skaitliskās matemātikas paplašinājumam **NumPy**.
+**Matplotlib** ir visaptveroša bibliotēka statisku, animētu un interaktīvu vizualizāciju izveidei Python. Tā rada publikāciju kvalitātes attēlus dažādos formātos un platformās, un to var izmantot skriptos, čaulās, tīmekļa lietojumprogrammās un grafiskās lietotāja saskarnes rīku komplektos. Tā ir attēlošanas bibliotēka Python programmēšanas valodai un tās skaitliskās matemātikas paplašinājumam **NumPy**. Kodā tas tiek izmantots, lai attēlotu faktiskās un prognozētās akciju cenas.
+
+Katrai bibliotēkai ir noteikta loma, un kopā tās palīdz iegūt, apstrādāt, modelēt un vizualizēt datus.
 ### Programmatūras izmantošanas metodes:
 Šī programmatūra ir rīks investoriem, kuri meklē zinātniski pamatotu metodi akciju cenu prognozēšanai. Tā palīdzēs investoriem pieņemt labākus lēmumus un palielināt peļņu. Lai izmantotu šo programmatūru, ir jāinstalē nepieciešamās bibliotēkas un jānodrošina piekļuve Yahoo Finance datiem. Pēc tam var mainīt tikera simbolu un datumus atbilstoši savām vajadzībām. Kad šie soļi ir izpildīti, var palaist programmatūru un skatīt prognozētās cenas diagrammā vai saglabāt tās Excel failā.

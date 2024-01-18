@@ -7,17 +7,17 @@
 ```python
 import pandas as pd
 ```
-**Pandas** ir bibliotēka datu manipulācijai un analīzei. Tā piedāvā datu struktūras un operācijas datu tabulu manipulēšanai un analīzei.
+**Pandas** ir ātrs, jaudīgs, elastīgs un viegli lietojams atvērtā koda datu analīzes un manipulācijas rīks, kas ir veidots uz Python programmēšanas valodas bāzes. Tas nodrošina datu struktūras un funkcijas, kas nepieciešamas strukturētu datu apstrādei, tostarp funkcionalitāti skaitlisko tabulu un laika rindu datu apstrādei.
 - Yfinance
 ```python
 import yfinance as yf
 ```
-**Yfinance** ir bibliotēka, kas ļauj viegli iegūt Yahoo Finance datus.
+**Yfinance** ir Python bibliotēka, kas ļauj piekļūt Yahoo Finance pieejamajiem finanšu datiem. Tā piedāvā pavedienu un Pythonic veidu, kā lejupielādēt tirgus datus no Yahoo! Finance. Tas ir atvērtā koda rīks, kas izmanto Yahoo publiski pieejamās API un ir paredzēts pētniecības un izglītības mērķiem.
 - NumPy
 ```python
 import numpy as np
 ```
-**NumPy** ir bibliotēka, kas piedāvā atbalstu lieliem, daudzdimensiju masīviem un matricām, kā arī augsta līmeņa matemātiskām funkcijām, lai strādātu ar šiem masīviem.
+**Numpy** ir Python bibliotēka, kas nodrošina atbalstu lieliem, daudzdimensiju masīviem un matricām, kā arī lielu augsta līmeņa matemātisko funkciju kolekciju darbam ar šiem masīviem. To izmanto zinātniskajiem aprēķiniem Python. Tā nodrošina rīkus darbam ar šiem masīviem un lielu skaitļošanas efektivitāti.
 - Datetime
 ```python
 from datetime import datetime, timedelta
@@ -28,11 +28,11 @@ from datetime import datetime, timedelta
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 ```
-**Train_test_split** ir funkcija no **sklearn.model_selection**, kas sadala datus treniņa un testa kopās. **LinearRegression** ir klase no **sklearn.linear_model**, kas ļauj veikt lineārās regresijas modelēšanu.
+**Sklearn (scikit-learn)** ir Python modulis mašīnmācīšanās procesam, kas veidots uz **SciPy** bāzes. Tas nodrošina vienkāršus un efektīvus rīkus prognozēšanas datu analīzei. Tas atbalsta dažādus mašīnmācīšanās algoritmus, piemēram, klasifikāciju, regresiju, klasterizāciju un citus. Tas ir izstrādāts tā, lai sadarbotos ar Python skaitlisko un zinātnisko bibliotēku **NumPy** un **SciPy**.
 - Matplotlib
 ```python
 import matplotlib.pyplot as plt
 ```
-**Matplotlib.pyplot** ir bibliotēka, kas nodrošina objektorientētu API grafiku zīmēšanai Python programmās.
+**Matplotlib** ir visaptveroša bibliotēka statisku, animētu un interaktīvu vizualizāciju izveidei Python. Tā rada publikāciju kvalitātes attēlus dažādos formātos un platformās, un to var izmantot skriptos, čaulās, tīmekļa lietojumprogrammās un grafiskās lietotāja saskarnes rīku komplektos. Tā ir attēlošanas bibliotēka Python programmēšanas valodai un tās skaitliskās matemātikas paplašinājumam **NumPy**.
 ### Programmatūras izmantošanas metodes:
 Šī programmatūra ir rīks investoriem, kuri meklē zinātniski pamatotu metodi akciju cenu prognozēšanai. Tā palīdzēs investoriem pieņemt labākus lēmumus un palielināt peļņu. Lai izmantotu šo programmatūru, ir jāinstalē nepieciešamās bibliotēkas un jānodrošina piekļuve Yahoo Finance datiem. Pēc tam var mainīt tikera simbolu un datumus atbilstoši savām vajadzībām. Kad šie soļi ir izpildīti, var palaist programmatūru un skatīt prognozētās cenas diagrammā vai saglabāt tās Excel failā.

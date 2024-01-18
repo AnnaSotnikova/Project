@@ -47,4 +47,14 @@ import matplotlib.pyplot as plt
 
 Katrai bibliotēkai ir noteikta loma, un kopā tās palīdz iegūt, apstrādāt, modelēt un vizualizēt datus.
 ### Programmatūras izmantošanas metodes:
-Šī programmatūra ir rīks investoriem, kuri meklē zinātniski pamatotu metodi akciju cenu prognozēšanai. Tā palīdzēs investoriem pieņemt labākus lēmumus un palielināt peļņu. Lai izmantotu šo programmatūru, ir jāinstalē nepieciešamās bibliotēkas un jānodrošina piekļuve Yahoo Finance datiem. Pēc tam var mainīt tikera simbolu un datumus atbilstoši savām vajadzībām. Kad šie soļi ir izpildīti, var palaist programmatūru un skatīt prognozētās cenas diagrammā vai saglabāt tās Excel failā.
+Šī programmatūra ir rīks investoriem, kuri meklē zinātniski pamatotu metodi akciju cenu prognozēšanai. Tā palīdzēs investoriem pieņemt labākus lēmumus un palielināt peļņu. 
+
+Lai izmantotu šo programmatūru, ir jāinstalē nepieciešamās bibliotēkas, kas ietver **pandas**, **yfinance**, **numpy**, **datetime**, **timedelta**, **sklearn.model_selection**, **sklearn.linear_model** un **matplotlib.pyplot**. Šīs bibliotēkas nodrošina nepieciešamo funkcionalitāti datu ieguvei, apstrādei, modelēšanai un vizualizācijai.
+
+Papildus tam, ir jānodrošina piekļuve Yahoo Finance datiem. **Yahoo Finance** ir viens no vadošajiem finanšu portāliem, kas nodrošina plašu spektru finanšu tirgus datu, tostarp akciju cenas, obligācijas, valūtas kursus un citu informāciju.
+
+Pēc tam, kad ir instalētas visas nepieciešamās bibliotēkas un nodrošināta piekļuve datiem, var mainīt tikera simbolu un datumus atbilstoši savām vajadzībām. Tikera simbols ir unikāls identifikators, kas tiek izmantots, lai atpazītu konkrētu akciju tirgū. Datumi tiek izmantoti, lai noteiktu vēsturisko periodu, par kuru tiek iegūti dati.
+
+Kad šie soļi ir izpildīti, var palaist programmatūru un skatīt prognozētās cenas diagrammā un saglabāt tās Excel failā. Diagramma ļauj vizuāli salīdzināt faktiskās un prognozētās cenas, kas var palīdzēt investoriem labāk izprast tirgus tendences. Excel fails nodrošina iespēju saglabāt un analizēt datus ārpus Python vides, kas var būt noderīgi tālākai analīzei un lēmumu pieņemšanai.
+
+Šī programmatūra ir lielisks rīks gan pieredzējušiem, gan jauniem investoriem, kuri vēlas izmantot zinātniski pamatotas metodes, lai prognozētu akciju cenas un veiktu informētus lēmumus. Tā ir izstrādāta, lai būtu viegli lietojama un pielāgojama dažādām vajadzībām, un tā var būt vērtīgs papildinājums jebkura investora rīku kastītei.

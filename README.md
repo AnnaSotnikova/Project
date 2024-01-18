@@ -9,7 +9,7 @@ Pēc modeļa apmacīšanas, tas tiek izmantots, lai prognozētu akciju cenas nā
 
 Turklāt, šis projekts ietver arī vizualizācijas komponenti. Izstrādātais modelis var izveidot grafiku, kas parāda gan faktiskās, gan prognozētās akciju cenas. Tas tiek darīts, izmantojot **matplotlib** bibliotēku, kas ir viena no visplašāk izmantotajām zinātniskās vizualizācijas bibliotēkām Python valodā.
 
-Visbeidzot, šis projekts ietver arī funkcionalitāti, kas ļauj saglabāt gan faktiskās, gan prognozētās akciju cenas Excel failā. Tas nodrošina iespēju viegli analizēt un salīdzināt datus ārpus Python vides. 
+Visbeidzot, šis projekts ietver arī funkcionalitāti, kas ļauj saglabāt gan faktiskās, gan prognozētās akciju cenas **Excel** failā. Tas nodrošina iespēju viegli analizēt un salīdzināt datus ārpus Python vides. 
 
 Šis projekts ir lielisks piemērs tam, kā var izmantot Python valodu un tās bibliotēkas, lai risinātu sarežģītus uzdevumus, piemēram, akciju cenu prognozēšanu. Tas parāda Python valodas spēju apvienot datu ieguvi, apstrādi, modelēšanu, vizualizāciju un saglabāšanu vienā integrētā procesā.
 ### Izmantotas Python bibliotēkas:

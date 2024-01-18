@@ -1,13 +1,13 @@
 # Akciju cenu prognozēšana
 ## Anna Sotņikova 231RDB267
 ### Projekta uzdevums:
-Šis projekts ir paredzēts akciju cenu prognozēšanu, izmantojot Python un lineārās regresijas modeli. Projekta mērķis ir izstrādāt precīzu un efektīvu modeli, kas spēj prognozēt akciju cenas nākotnē. Projekta pamatā ir vēsturisko datu izmantošana. Šie dati tiek iegūti no Yahoo Finance, rūpīgi apstrādāti un sagatavoti tālākai izmantošanai. Dati ietver informāciju par akciju cenām dažādos laika periodos.
+Šis projekts ir paredzēts akciju cenu prognozēšanu, izmantojot Python un lineārās regresijas modeli. Projekta mērķis ir izstrādāt precīzu un efektīvu modeli, kas spēj prognozēt akciju cenas nākotnē. Projekta pamatā ir vēsturisko datu izmantošana. Šie dati tiek iegūti no **Yahoo Finance**, rūpīgi apstrādāti un sagatavoti tālākai izmantošanai. Dati ietver informāciju par akciju cenām dažādos laika periodos.
 
-Pamatojoties uz šiem datiem, tiek apmācīts lineārās regresijas modelis. Modelis spēj mācīties no datiem un pielāgoties mainīgajai situācijai akciju tirgū. Tas tiek darīts, izmantojot Scikit-learn bibliotēku, kas ir populāra mašīnmācīšanās bibliotēka Python valodā. 
+Pamatojoties uz šiem datiem, tiek apmācīts lineārās regresijas modelis. Modelis spēj mācīties no datiem un pielāgoties mainīgajai situācijai akciju tirgū. Tas tiek darīts, izmantojot **scikit-learn** bibliotēku, kas ir populāra mašīnmācīšanās bibliotēka Python valodā. 
 
 Pēc modeļa apmacīšanas, tas tiek izmantots, lai prognozētu akciju cenas nākamajām 10 dienām. Prognozes tiek veiktas, izmantojot modeļa iegūtās zināšanas par iepriekšējo akciju cenu dinamiku. 
 
-Turklāt, šis projekts ietver arī vizualizācijas komponenti. Izstrādātais modelis var izveidot grafiku, kas parāda gan faktiskās, gan prognozētās akciju cenas. Tas tiek darīts, izmantojot matplotlib bibliotēku, kas ir viena no visplašāk izmantotajām zinātniskās vizualizācijas bibliotēkām Python valodā.
+Turklāt, šis projekts ietver arī vizualizācijas komponenti. Izstrādātais modelis var izveidot grafiku, kas parāda gan faktiskās, gan prognozētās akciju cenas. Tas tiek darīts, izmantojot **matplotlib** bibliotēku, kas ir viena no visplašāk izmantotajām zinātniskās vizualizācijas bibliotēkām Python valodā.
 
 Visbeidzot, šis projekts ietver arī funkcionalitāti, kas ļauj saglabāt gan faktiskās, gan prognozētās akciju cenas Excel failā. Tas nodrošina iespēju viegli analizēt un salīdzināt datus ārpus Python vides. 
 

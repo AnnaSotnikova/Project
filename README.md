@@ -57,4 +57,6 @@ Pēc tam, kad ir instalētas visas nepieciešamās bibliotēkas un nodrošināta
 
 Kad šie soļi ir izpildīti, var palaist programmatūru un skatīt prognozētās cenas diagrammā un saglabāt tās Excel failā. Diagramma ļauj vizuāli salīdzināt faktiskās un prognozētās cenas, kas var palīdzēt investoriem labāk izprast tirgus tendences. Excel fails nodrošina iespēju saglabāt un analizēt datus ārpus Python vides, kas var būt noderīgi tālākai analīzei un lēmumu pieņemšanai.
 
+![Diagramma](https://github.com/AnnaSotnikova/Project/blob/main/Graph.png)
+
 Šī programmatūra ir lielisks rīks gan pieredzējušiem, gan jauniem investoriem, kuri vēlas izmantot zinātniski pamatotas metodes, lai prognozētu akciju cenas un veiktu informētus lēmumus. Tā ir izstrādāta, lai būtu viegli lietojama un pielāgojama dažādām vajadzībām, un tā var būt vērtīgs papildinājums jebkura investora rīku kastītei.

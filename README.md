@@ -35,4 +35,4 @@ import matplotlib.pyplot as plt
 ```
 **Matplotlib.pyplot** ir bibliotēka, kas nodrošina objektorientētu API grafiku zīmēšanai Python programmās.
 ### Programmatūras izmantošanas metodes:
-Šī programmatūra ir rīks investoriem, kuri meklē zinātniski pamatotu metodi akciju cenu prognozēšanai. Tā palīdzēs investoriem pieņemt labākus lēmumus un palielināt peļņu.
+Šī programmatūra ir rīks investoriem, kuri meklē zinātniski pamatotu metodi akciju cenu prognozēšanai. Tā palīdzēs investoriem pieņemt labākus lēmumus un palielināt peļņu. Lai izmantotu šo programmatūru, ir jāinstalē nepieciešamās bibliotēkas un jānodrošina piekļuve Yahoo Finance datiem. Pēc tam var mainīt tikera simbolu un datumus atbilstoši savām vajadzībām. Kad šie soļi ir izpildīti, var palaist programmatūru un skatīt prognozētās cenas diagrammā vai saglabāt tās Excel failā.
